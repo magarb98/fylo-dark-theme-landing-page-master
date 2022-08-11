@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  --email_bg: hsl(217, 28%, 15%);
+  --main_bg: hsl(218, 28%, 13%);
+  --footer_bg: hsl(216, 53%, 9%);
+  --test_bg: hsl(219, 30%, 18%);
+
+  --cyan: hsl(176, 68%, 64%);
+  --blue: hsl(198, 60%, 50%);
+  --light_red: hsl(0, 100%, 63%);
+
+  --white: hsl(0, 0%, 100%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  background-color: var(--main_bg);
+  color: var(--white);
+}
+
+.features {
+  background-image: url("images/bg-curvy-desktop.svg");
+  background-color: var(--email_bg);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+  padding-bottom: 10rem;
+}
+
+.later {
+  background-color: var(--main_bg);
+}
+
+.later img {
+  max-height: 80px;
+  margin-bottom: 1rem;
+}
+
+.btn-pill {
+  background: linear-gradient(var(--cyan), var(--blue));
+  font-weight: 600;
+  color: var(--white);
+}
+
+.btn-pill:hover {
+  background: var(--cyan);
+}
+
+.main h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.card-body {
+  background-color: var(--test_bg);
+}
+
+.end {
+  background-color: var(--footer_bg);
+  color: var(--white);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.half {
+  background: linear-gradient(to top, var(--footer_bg) 75%, var(--main_bg) 75%);
+}
+
+.half h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin: 1rem 0 0;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.desc-link {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+#cards {
+  background: var(--test_bg);
+  border-radius: 10px;
+  padding: 1rem 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  box-shadow: 10px 5px 5px var(--email_bg);
+}
+
+#signup {
+  background: var(--email_bg);
+  border-radius: 10px;
+  padding: 1rem 0;
+  box-shadow: 3px 2px 2px black;
+}
+
+.card-avatar {
+  max-width: 34px;
+  height: auto;
+  border-radius: 50%;
+}
+
+.first {
+  position: relative;
+}
+
+.first .img {
+  position: absolute;
+  top: -2.25rem;
+  left: -0.75rem;
+  z-index: -1;
+}
+
+.arrow {
+  margin-bottom: 0.2rem;
+}
+
+.avatar {
+  max-width: 8%;
+  border-radius: 50%;
+}
+
+footer span {
+  margin-bottom: 0.6rem;
+}
+
+footer span img {
+  margin-right: 1rem;
+}
+
+.socials img {
+  max-height: 1.5rem;
+  border: 0.05rem solid white;
+  border-radius: 50%;
+}
+
+.title {
+  font-size: 0.75rem;
+}
+
+.title span {
+  font-size: 0.55rem;
+}
